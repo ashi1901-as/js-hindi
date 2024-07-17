@@ -38,6 +38,19 @@ const ar1=[
 ]
 //console.log(ar1)
 //console.log(ar1[0].id)
-console.log(Object.keys(tinder))//this type is an arra
-console.log(Object.entries(tinder))
-console.log(tinder.hasOwnProperty("name"))//boolean result will be given
+//console.log(Object.keys(tinder))//this type is an arra
+//console.log(Object.entries(tinder))
+//console.log(tinder.hasOwnProperty("name"))//boolean result will be given
+
+//destructuring of objects
+const jshindi={
+    name:"js",
+    price:"90",
+    couname:"hitesh",
+}
+jshindi.couname//one way of retrival
+const {couname : instructor}=jshindi;//another way
+console.log(instructor)//here we gave couname another name as instructor
+
+//Api in json
+//json formatter
